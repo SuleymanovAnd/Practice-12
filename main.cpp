@@ -1,6 +1,6 @@
 #include <iostream>
-
+void apartment ();
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    apartment ();
     return 0;
 }
