@@ -73,6 +73,12 @@ build CMakeFiles/Practice_12.dir/heapsort.cpp.obj: CXX_COMPILER__Practice_12_Deb
   OBJECT_DIR = CMakeFiles\Practice_12.dir
   OBJECT_FILE_DIR = CMakeFiles\Practice_12.dir
 
+build CMakeFiles/Practice_12.dir/travelTime.cpp.obj: CXX_COMPILER__Practice_12_Debug E$:/SkillboxProject/Practice-12/travelTime.cpp || cmake_object_order_depends_target_Practice_12
+  DEP_FILE = CMakeFiles\Practice_12.dir\travelTime.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Practice_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practice_12.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Practice_12
@@ -81,7 +87,7 @@ build CMakeFiles/Practice_12.dir/heapsort.cpp.obj: CXX_COMPILER__Practice_12_Deb
 #############################################
 # Link the executable Practice_12.exe
 
-build Practice_12.exe: CXX_EXECUTABLE_LINKER__Practice_12_Debug CMakeFiles/Practice_12.dir/main.cpp.obj CMakeFiles/Practice_12.dir/apartment_house.cpp.obj CMakeFiles/Practice_12.dir/overflow.cpp.obj CMakeFiles/Practice_12.dir/heapsort.cpp.obj
+build Practice_12.exe: CXX_EXECUTABLE_LINKER__Practice_12_Debug CMakeFiles/Practice_12.dir/main.cpp.obj CMakeFiles/Practice_12.dir/apartment_house.cpp.obj CMakeFiles/Practice_12.dir/overflow.cpp.obj CMakeFiles/Practice_12.dir/heapsort.cpp.obj CMakeFiles/Practice_12.dir/travelTime.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practice_12.dir

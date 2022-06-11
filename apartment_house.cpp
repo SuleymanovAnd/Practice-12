@@ -7,7 +7,7 @@
 using namespace std;
 
 void apartment (){
-cout << "Input surnames apartment residents: ";
+cout << "Input 10 surnames apartment residents: ";
 string surNames [10];
 int number_of_apartment;
 for (int i = 0; i < 10;++i){
@@ -22,6 +22,6 @@ for (int i =0; i<3;++i) {
         cin >> number_of_apartment;
         while (overflow()) { cin >> number_of_apartment; }
     }
-    cout << surNames[number_of_apartment - 1] << " lives in " << number_of_apartment << " apartment.";
+    cout << surNames[number_of_apartment - 1] << " lives in " << number_of_apartment << " apartment.\n";
 }
 }
